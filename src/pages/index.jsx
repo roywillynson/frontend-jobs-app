@@ -1,5 +1,14 @@
-const HomePage = () => {
-  return <div>Welcome a Nextjs</div>
-}
+import Head from 'next/head';
 
-export default HomePage
+const HomePage = () => {
+  return (
+    <>
+      <Head>
+        <title> PublisherJobs | Inicio</title>
+      </Head>
+      <div>Welcome a Nextjs</div>
+    </>
+  );
+};
+
+export default HomePage;
