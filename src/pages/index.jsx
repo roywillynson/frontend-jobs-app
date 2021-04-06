@@ -1,12 +1,11 @@
-import Head from 'next/head';
+import Layout from 'components/Layout/Layout';
 
 const HomePage = () => {
   return (
     <>
-      <Head>
-        <title> PublisherJobs | Inicio</title>
-      </Head>
-      <div>Welcome a Nextjs</div>
+      <Layout pageTitle="Home Page">
+        <div>Welcome a Nextjs</div>
+      </Layout>
     </>
   );
 };
