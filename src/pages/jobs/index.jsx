@@ -1,10 +1,12 @@
-import React from 'react';
+import Layout from 'components/Layout/Layout';
 
 const jobs = () => {
   return (
     <>
-      <div>Jobs</div>
-      <button className="button is-primary">Boton bulma</button>
+      <Layout pageTitle="Lista de Empleos">
+        <div>Jobs</div>
+        <button className="button is-primary">Boton bulma</button>
+      </Layout>
     </>
   );
 };
